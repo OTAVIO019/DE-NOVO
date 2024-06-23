@@ -1,0 +1,28 @@
+1.
+No css na parte do (.message--self) o codigo é esse caso algo de de errado, (no caso de ler dos outros é esse):
+.messages--self {
+    position: fixed; /* Define a posição fixa na tela */
+    bottom: 70px; /* Distância do rodapé da tela */
+    left: 20px; /* Distância da esquerda da tela */
+    font-size: 18px; /* Tamanho da fonte */
+    color: black; /* Cor do texto */
+    background-color:white; /* Cor de fundo com transparência */
+    padding: 10px 15px; /* Adiciona preenchimento interno */
+   border-radius: 10px 10px 0 10px; /* Define o raio da borda */
+}
+
+A VERSÃO DELE SÓ QUE NA DIREITA, (no nosso caso usamos essa):
+.messages--self {
+    position: fixed; /* Define a posição fixa na tela */
+    bottom: 70px; /* Distância do rodapé da tela */
+    right: 20px; /* Distância da esquerda da tela */
+    font-size: 18px; /* Tamanho da fonte */
+    color: black; /* Cor do texto */
+    background-color:white; /* Cor de fundo com transparência */
+    padding: 10px 15px; /* Adiciona preenchimento interno */
+   border-radius: 10px 10px 0 10px; /* Define o raio da borda */
+   align-self: flex-end;
+}
+
+
+2.
